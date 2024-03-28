@@ -1,0 +1,62 @@
+.logo{
+    margin: auto;
+}
+.logo-light{
+    margin: auto;
+    width: 650px;
+}
+.laptop-image{
+    /* overflow: hidden; */
+    /* border-radius: 1000px 10px 0 0; */
+    
+}
+.cards-cont{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+.cards-cont .product-card{
+    width: 25%;
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.cards-cont .product-card h3{
+padding: 15px 0;
+font-size: 24px;
+font-weight: bolder;
+}
+.cards-cont .product-card img{
+    width: 90%;
+    margin: auto;
+    
+}
+.faq-h{
+ 
+    text-align: right;
+
+}
+
+@media only screen and (max-width: 600px) {
+   .cards-cont{
+  flex-wrap: wrap;
+   }
+   .cards-cont .product-card{
+    width: 50%;
+
+}
+.logo-container{
+  
+    
+}
+.sayed{
+    font-size: 20px !important;
+    margin: 25px 0;
+}
+  }
+
+
+  .our-pro{
+   padding-top: 200px;
+  }

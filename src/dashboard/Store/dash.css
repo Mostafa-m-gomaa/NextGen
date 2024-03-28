@@ -1,0 +1,38 @@
+.counter{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 15px 0;
+    border-radius: 10px;
+    color: white;
+}
+.counter .counter-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+}
+.counter img{
+    background-color: rgb(55, 82, 235);
+   border-radius: 50%;
+   padding: 10px;
+   width: 100px;
+   margin: auto;
+}
+.counter h2 , h4{
+ color: rgb(55, 82, 235);
+ font-weight: bolder;
+ font-size: 24px;
+ text-align: center;
+
+}
+.counter h2{
+
+ font-size: 34px;
+
+
+}
+.counter h4{
+color: rgb(55, 82, 235);
+}

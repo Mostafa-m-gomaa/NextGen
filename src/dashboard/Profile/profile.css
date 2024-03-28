@@ -1,0 +1,55 @@
+.pac-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.pac-container .pa-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+.pac-container .pa-card img {
+  min-width: 90%;
+  max-width: 90%;
+  max-height: 250px;
+  min-height: 250px;
+  margin: 0 auto;
+}
+.pac-container .view {
+  background-color: rgb(31, 31, 129);
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pac-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .pac-container .pa-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  .pac-container .pa-card img {
+    min-width: 90%;
+    max-width: 90%;
+    max-height: 250px;
+    min-height: 250px;
+    margin: 0 auto;
+  }
+  .pac-container .view {
+    background-color: rgb(31, 31, 129);
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+}/*# sourceMappingURL=profile.css.map */
